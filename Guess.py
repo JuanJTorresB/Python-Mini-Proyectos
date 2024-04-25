@@ -7,11 +7,11 @@ def guess(x):
         guess = int(input(f"Intenta Advinar el Numero entre 1 y {x} :"))
         if guess < random_number:
             print("")
-            print("El numero es un poco Mayor Jijiji <3")
+            print("El numero es Mayor Jijiji <3")
             print(" ")
         elif guess > random_number:
             print(" ")
-            print("El numero es un poco Menor Jijiji <3")
+            print("El numero es Menor Jijiji <3")
             print(" ")
         else:
             print(" ")
