@@ -13,6 +13,7 @@ def Incio(x):
     elif Desicion == "A":
         print("He acertado, buen juego :3")
     else:
+        print("Holi jeje")
         
 
 def guess_Pc(x):
@@ -20,7 +21,7 @@ def guess_Pc(x):
     print("La computadora intentara adivinar tu numero ")
     print("Cuando la computadora haga su intento podras decir si es el numeor que estas pensando es Mayor(MA) Menor(ME) o si la computadora a Acertado (A)")
     choise = str(input("""¿Entendido?
-(S) Si (N) No\n"""))
+    (S) Si (N) No\n"""))
     choise = choise.lower()
     if choise == "s":
         Incio(x)
